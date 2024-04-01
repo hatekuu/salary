@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React,{ lazy,Suspense} from "react";
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+const Home =lazy(()=>import("./router/home/home")) 
+const Register =lazy(()=>import ("./router/register/register"))
+const Login =lazy(()=>import ("./router/login/login"))
+const Confirmrg =lazy(()=>import ( "./router/register/confirm"))
+const Confirmrs =lazy(()=>import ( "./router/resetpasword/confirm"))
+const Reset =lazy(()=>import ( "./router/resetpasword/reset"))
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<Router>
+  <Suspense fallback={<div> Loading...</div>}>
+   <Routes>
+    <Route path="/salayy/home" element={<Home/>}/>
+    <Route path="/salayy/register" element={<Register/>}/>
+    <Route path="/salayy/login" element={<Login/>}/>
+    <Route path="/salayy/confirmrg" element={<Confirmrg/>}/>
+    <Route path="/salayy/confirm" element={<Confirmrs/>}/>
+    <Route path="/salayy/reset" element={<Reset/>}/>
+
+   </Routes>
+  </Suspense>
+</Router>
   );
 }
 
