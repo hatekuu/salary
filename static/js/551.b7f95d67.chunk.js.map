@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/551.b7f95d67.chunk.js","mappings":"+IAEA,MAMA,EANiBA,KAEbC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,Y","sources":["router/register/register.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Register = () => {\r\n  return (\r\n    <div>register</div>\r\n  )\r\n}\r\n\r\nexport default Register"],"names":["Register","_jsx","children"],"sourceRoot":""}

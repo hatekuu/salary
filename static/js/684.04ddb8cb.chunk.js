@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksalary=self.webpackChunksalary||[]).push([[684],{684:(s,a,r)=>{r.r(a),r.d(a,{default:()=>l});r(43);var e=r(579);const l=()=>(0,e.jsx)("div",{children:"Confirmrs"})}}]);
+//# sourceMappingURL=684.04ddb8cb.chunk.js.map

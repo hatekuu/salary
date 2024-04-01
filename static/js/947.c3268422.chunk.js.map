@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/947.c3268422.chunk.js","mappings":"+IAEA,MAMA,EANcA,KAEVC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,S","sources":["router/login/login.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Login = () => {\r\n  return (\r\n    <div>Login</div>\r\n  )\r\n}\r\n\r\nexport default Login"],"names":["Login","_jsx","children"],"sourceRoot":""}

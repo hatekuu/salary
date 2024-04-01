@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/383.d71cae7a.chunk.js","mappings":"+IAEA,MAMA,EANcA,KAEVC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,S","sources":["router/resetpasword/reset.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst Reset = () => {\r\n  return (\r\n    <div>Reset</div>\r\n  )\r\n}\r\n\r\nexport default Reset"],"names":["Reset","_jsx","children"],"sourceRoot":""}

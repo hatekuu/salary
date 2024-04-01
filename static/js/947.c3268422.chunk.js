@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksalary=self.webpackChunksalary||[]).push([[947],{947:(s,a,e)=>{e.r(a),e.d(a,{default:()=>r});e(43);var l=e(579);const r=()=>(0,l.jsx)("div",{children:"Login"})}}]);
+//# sourceMappingURL=947.c3268422.chunk.js.map
